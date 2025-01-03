@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="77778094-2c91-4208-a6cd-8947c497d49f";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKSES TOOLS BOOSTER</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f4f4f9;
+        }
+        
+        .notification {
+  width:70px;height:60px;margin-left: 5px;
+  border:1px solid red;color:#69ca62;cursor:pointer;
+  box-shadow:inset 0 0 0 3px rgba(105, 202, 98, 0.5)}
+
+.notification::before{animation-delay:-4s;-webkit-animation-delay:-4s;-moz-animation-delay:-4s}
+.notification:hover::after,.notification:hover::before {color:yellow}
+.notification,.notification::before,.notification::after {position:absolute;top:0;bottom:0;left:0;right:0}
+.navigation: ;::before,.notification::after {
+  content: '';z-index: -1;margin: -5%;box-shadow: inset 0 0 0 3px;
+  animation: clipMe 8s linear infinite;
+  -webkit-animation: clipMe 8s linear infinite;
+  -moz-animation: clipMe 8s linear infinite}
+
+@keyframes clipMe {
+0%, 100% {clip:rect(0px, 220.0px, 2px, 0px)}
+25% {clip:rect(0px, 2px, 220.0px, 0px)}
+50% {clip:rect(218.0px, 220.0px, 220.0px, 0px)}
+75% {clip:rect(0px, 220.0px, 220.0px, 218.0px)}}
+
+@-webkit-keyframes clipMe {
+0%, 100% {clip:rect(0px, 220.0px, 2px, 0px)}
+25% {clip:rect(0px, 2px, 220.0px, 0px)}
+50% {clip:rect(218.0px, 220.0px, 220.0px, 0px)}
+75% {clip:rect(0px, 220.0px, 220.0px, 218.0px)}}
+
+@-moz-keyframes clipMe {
+0%, 100% {clip:rect(0px, 220.0px, 2px, 0px)}
+25% {clip:rect(0px, 2px, 220.0px, 0px)}
+50% {clip:rect(218.0px, 220.0px, 220.0px, 0px)}
+75% {clip:rect(0px, 220.0px, 220.0px, 218.0px)}}
+
+        .notification {
+            position: fixed;
+            top: -100px;
+            right: 2px;
+            width: 70%;
+            background: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+            color: white;
+            font-size: 10px;
+            padding: 15px;
+            text-align: center;
+            border-radius: 20px;
+            transition: top 0.5s ease;
+            z-index: 1000;
+        }
+
+        .notification.show {
+            top: 2px;
+        }
+
+        .close-btn {
+            position: absolute;
+            right: 2px;
+            top: 5px;
+            background: 0;
+            border: none;
+            color: white;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .notification-content {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .notification-content img {
+            width: 50px;
+            height: 50px;
+            border-radius: 10%;
+            margin-right: 10px;
+        }
+
+        .notification-content .username {
+            font-weight: bold;
+            margin-left: 10px;
+            color: #00bcd4;
+        }
+
+        .notification-content .text {
+           font-weight: bold;
+            max-width: 300px;
+            margin-left: 15px;
+            color: #daa520;
+        }
+
+        .notification-content .details {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        /* Fade-in animation */
+        .fade-in {
+            animation: fadeIn 1s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+/* Background image */
+        .login-background {
+            background-image: url('bglive.gif'); /* Ganti dengan URL gambar latar belakang Anda */
+            background-size: cover;
+            background-position: center;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Form container */
+        .login-form-container {
+            background: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+            padding: 40px;
+            border-radius: 8px;
+            width: 100%;
+            max-width: 400px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            color: #fff;
+            text-align: center;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .login-form-container h2 {
+            margin-bottom: 20px;
+            font-size: 28px;
+            color: #fff;
+        }
+
+        .login-form-container input[type="text"],
+        .login-form-container input[type="password"] {
+            width: 90%;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 20px;
+            border: 2px solid #daa520;
+            outline: none;
+            font-size: 10px;
+            transition: border 0.3s ease;
+        }
+
+        .login-form-container input[type="text"]:focus,
+        .login-form-container input[type="password"]:focus {
+            border-color: #00bcd4;
+        }
+
+        .login-form-container button {
+            width: 50%;
+            padding: 12px;
+            background-color: #daa520;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 10px;
+            margin-top: 10px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .login-form-container button:hover {
+            background-color: #008c8c;
+            transform: scale(1.05);
+        }
+
+        .login-form-container .forgot-password {
+            margin-top: 15px;
+            font-size: 14px;
+            color: #ccc;
+        }
+
+        .login-form-container .forgot-password a {
+            color: #00bcd4;
+            text-decoration: none;
+        }
+
+        .login-form-container .forgot-password a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .login-form-container {
+                padding: 20px;
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div id="notification" class="notification">
+        <button class="close-btn" onclick="closeNotification()">×</button>
+        <div class="notification-content">
+            <img id="user-image" src="mbilogo.png" alt="User Image">
+            <div class="details">
+                <div><span id="username" class="username">Anggita FS</span><p>☆Member Baru telah aktif hari ini☆</div>
+                <br>
+                <div id="user-text" class="text"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="login-background">
+        <div class="login-form-container">
+            <h5>TOOLS BOOSTER BUSINESS ONLINE</h5>
+            <marquee bgcolor="crimson" scrollamount="5">WELCOME ☆ ☆ ☆ ☆ ☆ ( Untuk melanjutkan silahkan input nama developer dan kode akses) ☆ ☆ ☆ HUBUNGI CUSTOMER SERVICE JIKA MENGALAMI KENDALA</marquee>
+            <form id="loginForm" action="#">
+              
+                <!-- Input Username -->
+                <input type="text" id="username" name="username" placeholder="Input Developer" required>
+
+                <!-- Input Password -->
+                <input type="password" id="password" name="password" placeholder="Input Kode Akses" required>
+
+                <!-- Login Button -->
+                <button type="submit" onclick="submitForm(action)">Get Tools</button>
+
+                <!-- Forgot Password Link -->
+                <div class="forgot-password">
+                    <a href="https://multibooster.github.io/boostingproses/">
+                      <img src="gear.gif" width="110" height="40"></a>
+                    <br>
+                    <br>
+                </div>
+            </form>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <script>
+      // Fungsi untuk menangani submit form
+        function submitForm(event) {
+            event.preventDefault(); // Mencegah reload halaman setelah form disubmit
+            const username = document.getElementById('username').value.trim();
+            const password = document.getElementById('password').value.trim();
+
+            if (username && password) {
+                alert('Login berhasil!');
+            } else {
+                alert('Silakan isi semua kolom.');
+            }
+        }
+      
+        // Data pengguna baru
+        const members = [
+            { name: "Amira Fashion ☆ SELLER", image: "mbilogo.png", text: "ULTIMATE MAXX BOOSTER" }
+            ,
+            { name: "Hendi Pekalongan  ☆ SELLER", image: "mbilogo.png", text: "ULTIMATE MAXX BOOSTER" }
+            ,
+            { name: "MIRA GLOW ☆ RESELLER", image: "mbilogo.png", text: "DELUXE LITE BOOSTER" }
+            ,
+            { name: "EDELWEISE HIJAB ☆ SELLER", image: "mbilogo.png", text: "ULTIMATE MAXX BOOSTER" }
+            ,
+            { name: "PRISCHA ☆ SELLER", image: "mbilogo.png", text: "ULTIMATE MAXX BOOSTER" }
+            ,
+            { name: "SARIMBIT STORE ☆ SELLER", image: "mbilogo.png", text: "ULTIMATE MAXX BOOSTER PLUS" }
+            ,
+            { name: "INDRA SETIAWAN ☆ SELLER", image: "mbilogo.png", text: "DELUXE LITE BOOSTER" }
+            ,
+            { name: "PS STORE ☆ SELLER", image: "mbilogo.png", text: "ULTIMATE MAXX BOOSTER" }
+            ,
+            { name: "WIDIA ASTUTI ☆ SELLER", image: "mbilogo.png", text: "ULTIMATE MAXX BOOSTER" }
+            ,
+            { name: "STYLE BANDUNG ☆ SELLER", image: "mbilogo.png", text: "ULTIMATE MAXX BOOSTER" }
+            ,
+        ];
+
+        let currentMember = 0;
+
+        // Fungsi untuk menampilkan notifikasi dengan data member baru
+        function showNotification() {
+            const member = members[currentMember];
+            document.getElementById('user-image').src = member.image;
+            document.getElementById('username').textContent = member.name;
+            document.getElementById('user-text').textContent = member.text;
+
+            // Menampilkan notifikasi dengan animasi fade-in
+            const notification = document.getElementById('notification');
+            notification.classList.add('show', 'fade-in');
+
+            // Setelah 5 detik, sembunyikan notifikasi
+            setTimeout(closeNotification, 5000);
+
+            // Update member berikutnya
+            currentMember = (currentMember + 1) % members.length;
+        }
+
+        // Menyembunyikan notifikasi
+        function closeNotification() {
+            const notification = document.getElementById('notification');
+            notification.classList.remove('show');
+        }
+
+        // Menampilkan notifikasi pertama setelah 1 detik
+        setTimeout(showNotification, 1000);
+
+        // Menampilkan notifikasi setiap 10 detik setelah itu
+        setInterval(showNotification, 10000);
+
+    </script>
+    
+
+<script>
+                var url = 'https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?81210';
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = url;
+                var options = {
+                "enabled":true,
+                "chatButtonSetting":{
+                    "backgroundColor":"#daa520",
+                    "ctaText":"Chat with us",
+                    "borderRadius":"25",
+                    "marginLeft": "20",
+                    "marginRight": "0",
+                    "marginBottom": "20",
+                    "ctaIconWATI":false,
+                    "position":"left"
+                },
+                "brandSetting":{
+                    "brandName":"MentorStream",
+                    "brandSubTitle":"undefined",
+                    "brandImg":"mbilogo.png",
+                    "welcomeText":"Halo!\nButuh bantuan?",
+                    "messageText":"Halo, %0A Saya ingin berlangganan paket booster {{page_title}}, mohon informasinya!",
+                    "backgroundColor":"#0008e6",
+                    "ctaText":"Chat with us",
+                    "borderRadius":"25",
+                    "autoShow":false,
+                    "phoneNumber":"62895395551666"
+                }
+                };
+                s.onload = function() {
+                    CreateWhatsappChatWidget(options);
+                };
+                var x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            </script>
+</body>
+</html>
